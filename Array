@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Array
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] strArray = new string[] {
+                "Mahesh Chand",
+                "Mike Gold",
+                "Raj Beniwal",
+                "Praveen Kumar",
+                "Dinesh Beniwal"
+            };
+            // Read array items using foreach loop  
+            foreach (string str in strArray)
+            {
+                Console.WriteLine(str);
+            }
+
+            Program array = new Program();
+
+            array.lerchave();
+        }
+
+        public void lerchave()
+        {
+            Console.ReadKey();
+        }
+    }
+}
